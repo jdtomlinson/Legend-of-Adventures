@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<HexTileDefinitions>
+
+  <SpriteSheetInfo fileName="Data/Images/HexTiles.png" numberOfRows="4" numberOfColumns="4"/>
+
+  <Tiles>
+    <Tile name="floor" isSolid="false" spriteCoords="0, 0"/>
+    <Tile name="wall" isSolid="true" spriteCoords="0, 1"/>
+    <Tile name="closed door" isSolid="true" tileTransformType="open door" spriteCoords="0, 2"/>
+    <Tile name="open door" isSolid="false" tileTransformType="closed door" spriteCoords="0, 3"/>
+    <Tile name="grass" isSolid="false" spriteCoords="1, 0"/>
+    <Tile name="water" isSolid="false" isImpassable="true" spriteCoords="1, 1"/>
+    <Tile name="red locked door" isSolid="true" tileTransformType="closed door" itemNeededToTransform="red key" spriteCoords="1, 2"/>
+    <Tile name="blue locked door" isSolid="true" tileTransformType="closed door" itemNeededToTransform="blue key" spriteCoords="1, 3"/>
+    <Tile name="load tile" isSolid="false" spriteCoords="2, 0"/>
+    <Tile name="cracked wall" isSolid="true" tileTransformType="floor" itemNeededToTransform="pickaxe" spriteCoords="2, 1"/>
+    <Tile name="torch" isSolid="true" isLighted="true" spriteCoords="2, 3"/>
+  </Tiles>
+  
+</HexTileDefinitions>

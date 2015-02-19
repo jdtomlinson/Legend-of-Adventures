@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MapDefinition>
+  
+  <Legend>
+    <TileDefinition asciiSymbol="#" tileTypeName="wall"/>
+    <TileDefinition asciiSymbol="." tileTypeName="floor"/>
+    <TileDefinition asciiSymbol="*" tileTypeName="water"/>
+    <TileDefinition asciiSymbol="%" tileTypeName="closed door"/>
+    <TileDefinition asciiSymbol="(" tileTypeName="red locked door"/>
+    <TileDefinition asciiSymbol=")" tileTypeName="blue locked door"/>
+    <TileDefinition asciiSymbol="X" tileTypeName="cracked wall"/>
+    <TileDefinition asciiSymbol="T" tileTypeName="torch"/>
+    <TileDefinition asciiSymbol="L" tileTypeName="load tile" eventToListenFor="PlayerMove" functionToFireForEvent="LoadNextMap" loadMapName="moon"/>
+    <ActorDefinition asciiSymbol="o" tileTypeName="floor" actorTypeName="blob"/>
+    <ActorDefinition asciiSymbol="m" tileTypeName="floor" actorTypeName="goomba"/>
+    <ActorDefinition asciiSymbol="v" tileTypeName="floor" actorTypeName="vampire"/>
+    <ActorDefinition asciiSymbol="K" tileTypeName="floor" actorTypeName="knight"/>
+    <ActorDefinition asciiSymbol="g" tileTypeName="floor" actorTypeName="ghost"/>
+    <ActorDefinition asciiSymbol="M" tileTypeName="floor" actorTypeName="moblin"/>
+    <ActorDefinition asciiSymbol="r" tileTypeName="floor" actorTypeName="rabbit"/>
+    <ActorDefinition asciiSymbol="s" tileTypeName="floor" actorTypeName="shyguy"/>
+    <ActorDefinition asciiSymbol="p" tileTypeName="floor" actorTypeName="spider"/>
+    <ActorDefinition asciiSymbol="a" tileTypeName="floor" actorTypeName="armos"/>
+    <ActorDefinition asciiSymbol="b" tileTypeName="floor" actorTypeName="bat"/>
+    <ActorDefinition asciiSymbol="B" tileTypeName="floor" actorTypeName="bunnyman"/>
+    <ActorDefinition asciiSymbol="z" tileTypeName="floor" actorTypeName="wizard"/>
+    <ActorDefinition asciiSymbol="u" tileTypeName="floor" actorTypeName="mummy"/>
+    <ActorDefinition asciiSymbol="S" tileTypeName="floor" actorTypeName="skeleton"/>
+    <ActorDefinition asciiSymbol="1" tileTypeName="floor" actorTypeName="old man"/>
+    <ActorDefinition asciiSymbol="2" tileTypeName="floor" actorTypeName="man"/>
+    <ActorDefinition asciiSymbol="3" tileTypeName="floor" actorTypeName="goron"/>
+    <ActorDefinition asciiSymbol="4" tileTypeName="floor" actorTypeName="chicken"/>
+    <ActorDefinition asciiSymbol="l" tileTypeName="floor" actorTypeName="like like"/>
+    <ActorDefinition asciiSymbol="n" tileTypeName="floor" actorTypeName="snake"/>
+    <ItemDefinition asciiSymbol="{" tileTypeName="floor" itemTypeName="red key"/>
+    <ItemDefinition asciiSymbol="}" tileTypeName="floor" itemTypeName="blue key"/>
+    <ItemDefinition asciiSymbol="+" tileTypeName="floor" itemTypeName="pickaxe"/>
+
+    <PlayerDefinition asciiSymbol="@" tileTypeName="floor" actorTypeName="player">
+      <Inventory>
+        <Item itemTypeName="heart"/>
+        <Item itemTypeName="wooden sword"/>
+        <Item itemTypeName="bow"/>
+        <Item itemTypeName="sharp sword"/>
+        <Item itemTypeName="ice rod"/>
+        <Item itemTypeName="red book"/>
+        <Item itemTypeName="white sword"/>
+        <Item itemTypeName="red sword"/>
+        <Item itemTypeName="red ring"/>
+        <Item itemTypeName="blue ring"/>
+        <Item itemTypeName="red candle"/>
+        <Item itemTypeName="shield"/>
+        <Item itemTypeName="green tunic"/>
+        <Item itemTypeName="blue tunic"/>
+        <Item itemTypeName="red tunic"/>
+        <Item itemTypeName="gold shield"/>
+        <Item itemTypeName="speed boots"/>
+        <Item itemTypeName="red cape"/>
+        <Item itemTypeName="iron gauntlet"/>
+        <Item itemTypeName="gold gauntlet"/>
+        <Item itemTypeName="blue candle"/>
+        <Item itemTypeName="fire rod"/>
+        <Item itemTypeName="iron boots"/>
+        <Item itemTypeName="blue cape"/>
+        <Item itemTypeName="blue book"/>
+        <Item itemTypeName="gold sword"/>
+      </Inventory>
+    </PlayerDefinition>
+    
+  </Legend>
+  
+  <Map name="eagle">
+    <Row characters="# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters=" # # # # # # # # # # # # # # . . . . . . . . . . . . # . . . . . . . . . . . . # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters="# # # # # # # # # # # # # # . . . . . . # . . . . . # . * * * . . . . * * * . # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters=" # # # # # # # # # # # # # # . . . . # . . # . . . . # . * . . . . . . . . * . # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters="# # # # # # # # # # # # # # . . . # . . . . . # . . ) . * . * * * * * * . * . # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters=" # # # # # # # # # # # # # # . . . . # . . # . . . . # . * . . . . . . . . * . # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters="# # # # # # # # # # # # # # . . . . . . # . . . . . # . * * * . . . . * * * . # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters=" # # # # # # # # # # # # # # . . . . . . . . . . . . # . . . . . . . . . . . . # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters="# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # ( # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters=" # # # # # # # # # # # # # # # # # # # # # # # # # # # * * * * * . . * * * * * # # # # # # # # # # # # # # . . . . . . . T T T T T # . . . . . . . . . . . . # "/>
+    <Row characters="# # # # # # # # # # # # # # # # # # # # # # # # # # # * . . . * . . . . * } * # # # # # # # # # # # # # # . . . . . . . . . T T T # . . # # # # # # # # # . # "/>
+    <Row characters=" # # # # # # # # # # # # # # # # # # # # # # # # # # # * . * . * . * * . * . * # # # # # # # # # # # # # # . . . . . . . . . . T T # . # . . . . . . . . # . # "/>
+    <Row characters="# # # # # # # # # # # # # # # # # # # # # # # # # # # . . * . * . . * . * . . # # # # # # # # # # # # # # . . . . . . . . . . . . % . # . . . . L . . . # . # "/>
+    <Row characters=" # # # # # # # # # # # # # # # # # # # # # # # # # # # * . * . * * . * . * . * # # # # # # # # # # # # # # . . . . . . . . . . T T # . # . . . . . . . . # . # "/>
+    <Row characters="# # # # # # # # # # # # # # # # # # # # # # # # # # # * { * . . . . * . . . * # # # # # # # # # # # # # # . . . . . . . . . T T T # . . # # # # . # # # # . # "/>
+    <Row characters=" # # # # # # # # # # # # # # # # # # # # # # # # # # # * * * * * . . * * * * * # # # # # # # # # # # # # # . . . . . . . T T T T T # . . . . . . . . . . . . # "/>
+    <Row characters="# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # % # # # # # # # # # # # # # # # # # # # # # # # # # ) # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters=" # . . . . . . . . . . . . # . . . . . . . . . . . . # . . . . . . . . . . . . # . . . . . . . . . . . . # . . . . . . . . . . . . # # # # # # # # # # # # # # "/>
+    <Row characters="# . . . 1 . . 3 . . . . . # . . . . . . . . . . . . # . . # # # . . # # # . . # . . . . . . . . . . . . # . # . # . # # . # . # . # # # # # # # # # # # # # # "/>
+    <Row characters=" # . . . . . . . . . . . . # . . . . . . . K . . . . # . . . . . . . . . . . . # . . # . . . . . . # . . # . . . . . . . . . . . . # # # # # # # # # # # # # # "/>
+    <Row characters="# . . . . 2 . . 4 . . . . % . . . . . . # . . . . . % . . . . . # # # . . . { ( . . . . . . . . . . . . % . # . # . # # } # . # . # # # # # # # # # # # # # # "/>
+    <Row characters=" # . . . . . . . . . . . . # . . . z . . . . . . . . # . . . . . . . . . . . . # . . # . . . . . . # . . # . . . . . . . . . . . . # # # # # # # # # # # # # # "/>
+    <Row characters="# . . . . . . . . . . . . # . . . . . . . . . . . . # . . # # # . . # # # . . # . . . . . . . . . . . . # . # . # . # # . # . # . # # # # # # # # # # # # # # "/>
+    <Row characters=" # . . . . . . . . . . . . # . . . . . . . . . . . . # . . . . . . . . . . . . # . . . . . . . . . . . . # . . . . . . . . . . . . # # # # # # # # # # # # # # "/>
+    <Row characters="# # # # # # # # # # # # # # # # # # # # ) # # # # # # # # # # # # X # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters=" # # # # # # # # # # # # # # . . . . . . . . . . . . # . . . . . . . . . . . . # . . . . . . . . . . . . # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters="# # # # # # # # # # # # # # . . . . . . . . . . . . # . . . . . . b . . . . . # . # . . . . u . . . # . # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters=" # # # # # # # # # # # # # # . . . . . # # . . . . . # . . # . . . . . . # . . # . . . . . . . . . . . . # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters="# # # # # # # # # # # # # # . . . . S # # # S . . . % . . . . b . b } b . . . % . . . . . u . + . . . . # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters=" # # # # # # # # # # # # # # . . . . . # # . . . . . # . . # . . . . . . # . . # . . . . . . . . . . . . # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters="# # # # # # # # # # # # # # . . . . . . . . . . . . # . . . . . . b . . . . . # . # . . . . . . . . # . # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters=" # # # # # # # # # # # # # # . . . . . . . . . . . . # . . . . . . . . . . . . # . . . . . . . . . . . . # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters="# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # % # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters=" # # # # # # # # # # # # # # # # # # # # # # # # # # # . . . . . . . . . . . . # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters="# # # # # # # # # # # # # # # # # # # # # # # # # # # . . . . . . s . . . . . # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters=" # # # # # # # # # # # # # # # # # # # # # # # # # # # . . . . . # # . . . . . # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters="# # # # # # # # # # # # # # # # # # # # # # # # # # # . . . . s # # # s . . . . # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters=" # # # # # # # # # # # # # # # # # # # # # # # # # # # . . . . . # # . . . . . # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters="# # # # # # # # # # # # # # # # # # # # # # # # # # # . . . . . . . . . . . . # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters=" # # # # # # # # # # # # # # # # # # # # # # # # # # # . . . . . . . . . . . . # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters="# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # ( # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters=" # # # # # # # # # # # # # # . . . . . . . . . . . . # . . . . . . . . . . . . # . . . . . . . . . . . . # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters="# # # # # # # # # # # # # # . . . . . o . . o . . . # . . # . # . . . # . # . # . . . . . . . . . . . . # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters=" # # # # # # # # # # # # # # . . . . . . . . . . . . # . . . . . . . . . . . . # . . # # . m m . # # . . # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters="# # # # # # # # # # # # # # . . . . . . o . . . . . % . . # . # . . . # . # . % . . # # # m { . # # # . # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters=" # # # # # # # # # # # # # # . . . o . . . o . . . . # . . . . . . . . . . . . # . . # # . m m . # # . . # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters="# # # # # # # # # # # # # # . . . . . . . . . . . . # . . # . # . @ . # . # . # . . . . . . . . . . . . # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters=" # # # # # # # # # # # # # # . . . . . . . . . . . . # . . . . . . . . . . . . # . . . . . . . . . . . . # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+    <Row characters="# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # "/>
+  </Map>
+  
+</MapDefinition>

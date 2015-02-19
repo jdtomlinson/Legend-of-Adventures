@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<EntityDefinitions>
+
+  <SpriteSheetInfo fileName="Data/Images/EntitySprites.png" numberOfRows="8" numberOfColumns="8"/>
+  
+  <Actors>
+    
+    <Actor
+      name="player"
+      maxHP="100.0"
+      secondsPerMove="0.4"
+      hpRegenPerSecond="1.0"
+      sight="4"
+      attackStrength="15.0"
+      defenseConstitution="12.0"
+      chanceToHitPercent="0.86"
+      chanceToDodgePercent="0.17"
+      experienceToGive="0"
+      spriteCoords="0, 0"
+    />
+    
+    <Actor
+      name="vampire"
+      maxHP="20.0"
+      secondsPerMove="0.6"
+      sight="3"
+      attitude="hate"
+      attackStrength="10.0"
+      defenseConstitution="8.0"
+      chanceToHitPercent="0.75"
+      chanceToDodgePercent="0.15"
+      experienceToGive="10"
+      spriteCoords="0, 1"
+    />
+    
+    <Actor
+      name="blob"
+      maxHP="10.0"
+      secondsPerMove="1.0"
+      sight="0"
+      attitude="hate"
+      attackStrength="3.0"
+      defenseConstitution="10.0"
+      chanceToHitPercent="0.85"
+      chanceToDodgePercent="0.1"
+      experienceToGive="2"
+      spriteCoords="0, 2"
+    />
+    
+    <Actor
+      name="knight"
+      maxHP="200.0"
+      secondsPerMove="0.5"
+      sight="6"
+      attitude="neutral"
+      attitudeWhenAttacked="hate"
+      attackStrength="18.0"
+      defenseConstitution="15.0"
+      chanceToHitPercent="0.83"
+      chanceToDodgePercent="0.07"
+      experienceToGive="50"
+      spriteCoords="0, 3"
+    />
+    
+    <Actor
+      name="ghost"
+      maxHP="20.0"
+      secondsPerMove="0.5"
+      sight="3"
+      attitude="hate"
+      attackStrength="11.0"
+      defenseConstitution="14.0"
+      chanceToHitPercent="0.77"
+      chanceToDodgePercent="0.16"
+      experienceToGive="10"
+      spriteCoords="0, 4"
+    />
+    
+    <Actor
+      name="moblin"
+      maxHP="30.0"
+      secondsPerMove="0.7"
+      sight="4"
+      attitude="hate"
+      attackStrength="12.0"
+      defenseConstitution="8.0"
+      chanceToHitPercent="0.79"
+      chanceToDodgePercent="0.14"
+      experienceToGive="15"
+      spriteCoords="0, 5"
+    />
+    
+    <Actor
+      name="spider"
+      maxHP="20.0"
+      secondsPerMove="0.5"
+      sight="2"
+      attitude="hate"
+      attackStrength="8.0"
+      defenseConstitution="4.0"
+      chanceToHitPercent="0.71"
+      chanceToDodgePercent="0.21"
+      experienceToGive="7"
+      spriteCoords="0, 6"
+    />
+    
+    <Actor
+      name="armos"
+      maxHP="40.0"
+      secondsPerMove="0.9"
+      sight="4"
+      attitude="hate"
+      attackStrength="14.0"
+      defenseConstitution="16.0"
+      chanceToHitPercent="0.77"
+      chanceToDodgePercent="0.13"
+      experienceToGive="24"
+      spriteCoords="0, 7"
+    />
+    
+    <Actor
+      name="rabbit"
+      maxHP="10.0"
+      secondsPerMove="0.3"
+      sight="4"
+      attitude="fear"
+      attackStrength="3.0"
+      defenseConstitution="5.0"
+      chanceToHitPercent="0.62"
+      chanceToDodgePercent="0.19"
+      experienceToGive="4"
+      spriteCoords="1, 0"
+    />
+    
+    <Actor
+      name="bat"
+      maxHP="20.0"
+      secondsPerMove="0.3"
+      sight="2"
+      attitude="hate"
+      attackStrength="4.0"
+      defenseConstitution="4.0"
+      chanceToHitPercent="0.73"
+      chanceToDodgePercent="0.17"
+      experienceToGive="8"
+      spriteCoords="1, 1"
+    />
+    
+    <Actor
+      name="bunnyman"
+      maxHP="40.0"
+      secondsPerMove="0.6"
+      sight="3"
+      attitude="hate"
+      attackStrength="11.0"
+      defenseConstitution="9.0"
+      chanceToHitPercent="0.79"
+      chanceToDodgePercent="0.15"
+      experienceToGive="21"
+      spriteCoords="1, 2"
+    />
+    
+    <Actor
+      name="wizard"
+      maxHP="40.0"
+      secondsPerMove="0.5"
+      sight="4"
+      attitude="hate"
+      attackStrength="17.0"
+      defenseConstitution="15.0"
+      chanceToHitPercent="0.82"
+      chanceToDodgePercent="0.19"
+      experienceToGive="27"
+      spriteCoords="1, 3"
+    />
+    
+    <Actor
+      name="mummy"
+      maxHP="30.0"
+      secondsPerMove="0.7"
+      sight="2"
+      attitude="hate"
+      attackStrength="9.0"
+      defenseConstitution="15.0"
+      chanceToHitPercent="0.69"
+      chanceToDodgePercent="0.12"
+      experienceToGive="19"
+      spriteCoords="1, 4"
+    />
+    
+    <Actor
+      name="skeleton"
+      maxHP="40.0"
+      secondsPerMove="0.5"
+      sight="3"
+      attitude="hate"
+      attackStrength="8.0"
+      defenseConstitution="7.0"
+      chanceToHitPercent="0.81"
+      chanceToDodgePercent="0.17"
+      experienceToGive="23"
+      spriteCoords="1, 5"
+    />
+    
+    <Actor
+      name="old man"
+      maxHP="50.0"
+      secondsPerMove="0.8"
+      sight="3"
+      attitude="neutral"
+      attitudeWhenAttacked="fear"
+      attackStrength="4.0"
+      defenseConstitution="2.0"
+      chanceToHitPercent="0.45"
+      chanceToDodgePercent="0.04"
+      experienceToGive="0"
+      spriteCoords="1, 6"
+    />
+    
+    <Actor
+      name="man"
+      maxHP="100.0"
+      secondsPerMove="0.5"
+      sight="4"
+      attitude="neutral"
+      attitudeWhenAttacked="hate"
+      attackStrength="18.0"
+      defenseConstitution="15.0"
+      chanceToHitPercent="0.84"
+      chanceToDodgePercent="0.12"
+      experienceToGive="0"
+      spriteCoords="1, 7"
+    />
+
+    <Actor
+      name="like like"
+      maxHP="20.0"
+      secondsPerMove="0.6"
+      sight="1"
+      attitude="hate"
+      attackStrength="9.0"
+      defenseConstitution="6.0"
+      chanceToHitPercent="0.72"
+      chanceToDodgePercent="0.09"
+      experienceToGive="9"
+      spriteCoords="2, 0"
+    />
+
+    <Actor
+      name="snake"
+      maxHP="20.0"
+      secondsPerMove="0.3"
+      sight="2"
+      attitude="hate"
+      attackStrength="7.0"
+      defenseConstitution="4.0"
+      chanceToHitPercent="0.78"
+      chanceToDodgePercent="0.19"
+      experienceToGive="8"
+      spriteCoords="2, 1"
+    />
+
+    <Actor
+      name="hand"
+      maxHP="40.0"
+      secondsPerMove="0.5"
+      sight="2"
+      attitude="hate"
+      attackStrength="12.0"
+      defenseConstitution="12.0"
+      chanceToHitPercent="0.74"
+      chanceToDodgePercent="0.13"
+      experienceToGive="19"
+      spriteCoords="2, 2"
+    />
+
+    <Actor
+      name="centaur"
+      maxHP="40.0"
+      secondsPerMove="0.4"
+      sight="4"
+      attitude="hate"
+      attackStrength="18.0"
+      defenseConstitution="14.0"
+      chanceToHitPercent="0.71"
+      chanceToDodgePercent="0.13"
+      experienceToGive="27"
+      spriteCoords="2, 3"
+    />
+
+    <Actor
+      name="octorok"
+      maxHP="20.0"
+      secondsPerMove="0.6"
+      sight="2"
+      attitude="hate"
+      attackStrength="10.0"
+      defenseConstitution="6.0"
+      chanceToHitPercent="0.69"
+      chanceToDodgePercent="0.15"
+      experienceToGive="8"
+      spriteCoords="2, 4"
+    />
+
+    <Actor
+      name="leever"
+      maxHP="20.0"
+      secondsPerMove="0.5"
+      sight="1"
+      attitude="hate"
+      attackStrength="7.0"
+      defenseConstitution="4.0"
+      chanceToHitPercent="0.76"
+      chanceToDodgePercent="0.09"
+      experienceToGive="7"
+      spriteCoords="2, 5"
+    />
+
+    <Actor
+      name="goomba"
+      maxHP="15.0"
+      secondsPerMove="0.6"
+      sight="2"
+      attitude="hate"
+      attackStrength="6.0"
+      defenseConstitution="3.0"
+      chanceToHitPercent="0.73"
+      chanceToDodgePercent="0.12"
+      experienceToGive="5"
+      spriteCoords="2, 6"
+    />
+
+    <Actor
+      name="goron"
+      maxHP="50.0"
+      secondsPerMove="0.8"
+      sight="4"
+      attitude="neutral"
+      attitudeWhenAttacked="hate"
+      attackStrength="15.0"
+      defenseConstitution="22.0"
+      chanceToHitPercent="0.71"
+      chanceToDodgePercent="0.05"
+      experienceToGive="0"
+      spriteCoords="2, 7"
+    />
+
+    <Actor
+      name="monkey"
+      maxHP="40.0"
+      secondsPerMove="0.4"
+      sight="2"
+      attitude="neutral"
+      attitudeWhenAttacked="fear"
+      attackStrength="16.0"
+      defenseConstitution="10.0"
+      chanceToHitPercent="0.78"
+      chanceToDodgePercent="0.18"
+      experienceToGive="0"
+      spriteCoords="3, 0"
+    />
+
+    <Actor
+      name="shyguy"
+      maxHP="20.0"
+      secondsPerMove="0.6"
+      sight="2"
+      attitude="hate"
+      attackStrength="12.0"
+      defenseConstitution="8.0"
+      chanceToHitPercent="0.66"
+      chanceToDodgePercent="0.22"
+      experienceToGive="10"
+      spriteCoords="3, 1"
+    />
+
+    <Actor
+      name="pirate"
+      maxHP="30.0"
+      secondsPerMove="0.7"
+      sight="3"
+      attitude="hate"
+      attackStrength="17.0"
+      defenseConstitution="12.0"
+      chanceToHitPercent="0.72"
+      chanceToDodgePercent="0.14"
+      experienceToGive="18"
+      spriteCoords="3, 2"
+    />
+
+    <Actor
+      name="chicken"
+      maxHP="500.0"
+      secondsPerMove="0.3"
+      sight="5"
+      attitude="neutral"
+      attitudeWhenAttacked="hate"
+      attackStrength="25.0"
+      defenseConstitution="25.0"
+      chanceToHitPercent="0.86"
+      chanceToDodgePercent="0.12"
+      experienceToGive="0"
+      spriteCoords="3, 3"
+    />
+
+    <Actor
+      name="tingle"
+      maxHP="100.0"
+      secondsPerMove="0.5"
+      sight="3"
+      attitude="neutral"
+      attitudeWhenAttacked="fear"
+      attackStrength="7.0"
+      defenseConstitution="10.0"
+      chanceToHitPercent="0.65"
+      chanceToDodgePercent="0.25"
+      experienceToGive="0"
+      spriteCoords="3, 4"
+    />
+
+    <Actor
+      name="octopus"
+      maxHP="30.0"
+      secondsPerMove="0.7"
+      sight="3"
+      attitude="hate"
+      attackStrength="16.0"
+      defenseConstitution="13.0"
+      chanceToHitPercent="0.73"
+      chanceToDodgePercent="0.14"
+      experienceToGive="21"
+      spriteCoords="3, 5"
+    />
+
+    <Actor
+      name="fairy"
+      maxHP="70.0"
+      secondsPerMove="0.3"
+      sight="2"
+      attitude="neutral"
+      attitudeWhenAttacked="fear"
+      attackStrength="2.0"
+      defenseConstitution="7.0"
+      chanceToHitPercent="0.7"
+      chanceToDodgePercent="0.16"
+      experienceToGive="0"
+      spriteCoords="3, 6"
+    />
+
+    <Actor
+      name="frog"
+      maxHP="40.0"
+      secondsPerMove="0.6"
+      sight="3"
+      attitude="neutral"
+      attitudeWhenAttacked="fear"
+      attackStrength="7.0"
+      defenseConstitution="12.0"
+      chanceToHitPercent="0.64"
+      chanceToDodgePercent="0.13"
+      experienceToGive="0"
+      spriteCoords="3, 7"
+    />
+    
+  </Actors>
+
+  <Items>
+    <Item name="wooden sword" equipType="hand" attackModifier="3.0" dexterityModifier="0.02" spriteCoords="4, 0"/>
+    <Item name="bow" equipType="hand" spawnItem="arrow" range="4" secondsPerMove="0.1" spriteCoords="4, 1"/>
+    <Item name="arrow" spriteCoords="4, 2"/>
+    <Item name="heart" equipType="body" healthRegenModifier="5.0" spriteCoords="4, 3"/>
+    <Item name="sharp sword" equipType="hand" attackModifier="10.0" dexterityModifier="-0.1" dodgeModifier="-0.03" spriteCoords="4, 4"/>
+    <Item name="lion key" equipType="hand" spriteCoords="4, 5"/>
+    <Item name="ice rod" equipType="hand" attackModifier="5.0" dexterityModifier="0.05" spriteCoords="4, 6"/>
+    <Item name="red book" equipType="hand" dodgeModifier="0.1" spriteCoords="4, 7"/>
+    <Item name="white sword" equipType="hand" attackModifier="5.0" dexterityModifier="0.04" spriteCoords="5, 0"/>
+    <Item name="red sword" equipType="hand" attackModifier="8.0" dexterityModifier="0.06" spriteCoords="5, 1"/>
+    <Item name="red ring" equipType="hand" dexterityModifier="0.1" spriteCoords="5, 2"/>
+    <Item name="blue ring" equipType="hand" dodgeModifier="0.1" spriteCoords="5, 3"/>
+    <Item name="red candle" equipType="hand" sightModifier="1" spriteCoords="5, 4"/>
+    <Item name="potion" spriteCoords="5, 5"/>
+    <Item name="red key" equipType="hand" spriteCoords="5, 6"/>
+    <Item name="shield" equipType="hand" defenseModifier="4.0" dodgeModifier="-0.03" spriteCoords="5, 7"/>
+    <Item name="green tunic" equipType="body" defenseModifier="3.0" dodgeModifier="0.03" spriteCoords="6, 0"/>
+    <Item name="blue tunic" equipType="body" defenseModifier="4.0" dodgeModifier="0.04" spriteCoords="6, 1"/>
+    <Item name="red tunic" equipType="body" defenseModifier="5.0" dodgeModifier="0.05" spriteCoords="6, 2"/>
+    <Item name="gold shield" equipType="hand" defenseModifier="7.0" dodgeModifier="-0.07" spriteCoords="6, 3"/>
+    <Item name="speed boots" equipType="body" speedModifier="0.1" dodgeModifier="0.1" spriteCoords="6, 4"/>
+    <Item name="red cape" equipType="body" attackModifier="4.0" dexterityModifier="0.1" spriteCoords="6, 5"/>
+    <Item name="iron gauntlet" equipType="body" defenseModifier="5.0" dodgeModifier="-0.04" spriteCoords="6, 6"/>
+    <Item name="gold gauntlet" equipType="body" defenseModifier="7.0" dodgeModifier="-0.08" spriteCoords="6, 7"/>
+    <Item name="blue key" equipType="hand" spriteCoords="7, 0"/>
+    <Item name="pickaxe" equipType="hand" spriteCoords="7, 1"/>
+    <Item name="blue candle" equipType="hand" sightModifier="3" spriteCoords="7, 2"/>
+    <Item name="fire rod" equipType="hand" attackModifier="5.0" dodgeModifier="0.05" spriteCoords="7, 3"/>
+    <Item name="iron boots" equipType="body" defenseModifier="3.0" speedModifier="-0.2" dodgeModifier="-0.1" spriteCoords="7, 4"/>
+    <Item name="blue cape" equipType="body" defenseModifier="3.0" dodgeModifier="0.05" spriteCoords="7, 5"/>
+    <Item name="blue book" equipType="hand" dexterityModifier="0.1" spriteCoords="7, 6"/>
+    <Item name="gold sword" equipType="hand" attackModifier="12.0" dexterityModifier="0.1" spriteCoords="7, 7"/>
+  </Items>
+
+</EntityDefinitions>
